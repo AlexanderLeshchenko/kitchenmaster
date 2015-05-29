@@ -1,0 +1,389 @@
+@font-face {
+	font-family: "Novecentowide";
+	src: url("../fonts/Nowecentowide/novecentowide-bold.otf");
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: "ProximaNovaRegular";
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+	src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+	url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+	font-family: "ProximaNovaBold";
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+	src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+	url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "OstrichSans Bold"; */
+@font-face {
+	font-family: "OstrichSansBold";
+	src: url("../fonts/OstrichBold/ostrich-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "OstrichSans Black"; */
+@font-face {
+	font-family: "OstrichSansBlack";
+	src: url("../fonts/OstrichBlack/ostrich-black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "OstrichSans Medium"; */
+@font-face {
+	font-family: "OstrichSansMedium";
+	src: url("../fonts/OstrichMedium/ostrich-regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Neou"; */
+@font-face {
+	font-family: "Neou";
+	src: url("../fonts/Neou/Neou-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Lavanderia"; */
+@font-face {
+	font-family: "Lavanderia";
+	src: url("../fonts/Lavanderia/Lavanderia Sturdy.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+p {
+	font: 16px "ProximaNovaRegular", Arial, sans-serif;
+	line-height: 1.313;
+	margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+	font: 24px "OstrichSansBlack", Arial, sans-serif;
+	line-height: 1.25;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 35px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5, h6 {
+	font-size: 18px;
+}
+
+.km-container{
+	max-width:940px;
+	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.km-container-mid{
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.km-header{
+	padding-top: 50px;
+	background: #2a323a;
+	padding-bottom: 350px;
+}
+.km-nav {
+	height: 40px;
+	line-height: 40px;
+}
+.km-nav li{
+	display:inline-block;
+	text-transform: uppercase;
+	font: 14px 'ProximaNovaBold', Arial, sans-serif;
+	margin: 0 23px;
+	vertical-align: middle;
+}
+.km-nav li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.60);
+}
+.km-nav li a:hover{
+	color: #f39c12;
+}
+.km-nav span{
+	font: 35px 'Novecentowide', Arial, sans-serif;
+	color: #f39c12;
+	padding-bottom: 8px;
+	padding-right: 8px;
+}
+.km-header .km-svg{
+	width: 386px;
+	height: 582px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+.km-cookclass{
+	transform: skewY(-10deg);
+	-ms-transform: skewY(-10deg);
+	-webkit-transform: skewY(-10deg);
+	-moz-transform: skewY(-10deg);
+	background: #ffffff;
+	margin-top: -200px;
+	margin-bottom: 100px;
+	z-index: 100;
+}
+.km-cookclass .km-cookclass-cont{
+	transform: skewY(10deg);
+	-ms-transform: skewY(10deg);
+	-webkit-transform: skewY(10deg);
+	-moz-transform: skewY(10deg);
+	padding-top: 150px;
+
+}
+.km-cookclass .km-text h1{
+	font: 24px 'OstrichSansBlack', sans-serif;
+	padding-bottom: 26px;
+}
+.km-cookclass .km-text p{
+	font: 16px 'ProximaNovaRegular', sans-serif;
+}
+
+/*REGISTER*/
+.km-register{
+	background: #2a323a;
+	padding: 30px 0 300px 0;
+	-ms-transform: skewY(9deg);
+	-webkit-transform: skewY(9deg);
+	-moz-transform: skewY(9deg);
+	transform: skewY(9deg);
+	z-index: 50;
+}
+.km-register .km-register-cont{
+	-ms-transform: skewY(-9deg);
+	-webkit-transform: skewY(-9deg);
+	-moz-transform: skewY(-9deg);
+	transform: skewY(-9deg);
+	padding: 0 20px;
+}
+.km-register h1{
+	font: 30px 'OstrichSansBlack', sans-serif;
+	color: rgba(255, 255, 255, 0.60);
+	margin-bottom: 50px;
+}
+.km-register img{
+	margin-top: -87px;
+	overflow: hidden;
+	max-width: 100%;
+}
+/*
+.km-register .km-register-cont .km-register-button{
+	padding: 10px 50px;
+	color: #2ecc71;
+	border-radius: 20px;
+	border: 2px solid #2ecc71;
+	text-decoration: none;
+}
+.km-register .km-register-cont a:hover{
+	background: #2ecc71;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}*/
+input[type="button"],
+button,
+.kit-register-button{
+	font:24px "ProximaNovaBold", Arial, sans-serif;
+	font-weight: bold;
+	padding: 22px 52px;
+	display: inline-block;
+	border-color:#2ECC71;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	color: #2ECC71;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+
+
+input[type="button"]:hover,
+button:hover,
+.kit-register-button:hover{
+	color:#fff;
+	background-color: #2ECC71;
+}
+
+/* TESTIMONIALS */
+
+.km-testimonials {
+	background: #fff;
+	z-index: 1;
+	-ms-transform: skewY(-4deg);
+	-webkit-transform: skewY(-4deg);
+	-moz-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	margin-top: -250px;
+	margin-bottom: -75px;
+}
+.km-testimonials .km-testimonials-cont{
+	-ms-transform: skewY(4deg);
+	-webkit-transform: skewY(4deg);
+	-moz-transform: skewY(4deg);
+	transform: skewY(4deg);
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+.km-testimonials .ba-container {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.km-testimonials .ba-grid + .ba-grid {
+	margin-top: -90px;
+}
+.km-testimonials .ba-width-medium-5-12:nth-child(2) {
+	float: right;
+	margin-top: 90px;
+}
+
+.km-testimonials h2 {
+	padding-bottom: 50px;
+}
+.km-testimonials-comment {
+	position: relative;
+	top: -30px;
+}
+.km-testimonials-container {
+	margin-left: 51%;
+	position: relative;
+	top: -50px;
+}
+.km-testimonials-avatar {
+	width: 50px;
+}
+.km-testimonials-avatar,
+.km-testimonials-author {
+	display: inline-block;
+}
+.km-testimonials-author {
+	position: relative;
+	top: -12px;
+}
+.km-testimonials-author h5 {
+	font-size: 16px;
+	margin-bottom: 0;
+	font-family: "ProximaNovaRegular", Arial, sans-serif;
+}
+.km-testimonials-author p {
+	font-size: 14px;
+	color: #898989;
+	margin-bottom: 0;
+}
+
+
+/*Footer*/
+.km-footer{
+	background: url("../img/Map2.jpg");
+	background-size: cover;
+	padding:170px 0 50px 0;
+	color:#fff;
+	font: 16px "ProximaNovaRegular", Arial, sans-serif;
+	line-height: 1.3;
+}
+.km-footer-text{
+	border-right: 1px dotted #A1A1A1;
+}
+.km-footer-text h1{
+	font: 24px "OstrichSansBlack", Arial, sans-serif;
+	color: #F39C12;
+	line-height: 0.8;
+	padding-bottom: 27px;
+}
+.km-footer-address{
+	padding-bottom: 27px;
+}
+.km-footer-cont a{
+	color:#2ECC71;
+	text-decoration: none;
+}
+.km-footer-icons i{
+	padding:30px 5px 0 0;
+	font-size: 18px;
+}
+.km-footer-site-map a{
+	font: 16px "ProximaNovaRegular", Arial, sans-serif;
+	line-height: 1.3;
+	color:#fff;
+	text-decoration: none;
+	padding: 0 50px;
+
+}
+.km-footer-site-map{
+	height: 285px !important;
+	border-right: 1px dotted #A1A1A1;
+}
+
+.km-footer-form{
+	border:none;
+	width: 385px;
+	background-color: transparent;
+	border-bottom:3px solid #A1A1A1;
+	text-transform: uppercase;
+	padding: 17px;
+	color:#fff;
+	margin: 0 70px 30px;
+}
+.km-footer-form:invalid {
+	background: rgba(229, 0, 0, 0.67);
+}
+.km-footer-form:focus{
+	background-color: rgba(255, 255, 255, .3);
+	padding: 17px;
+}
+.km-footer-arrow{
+	background-image: url("../img/Arrow.png");
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	border:none;
+	position:relative;
+	bottom: 82px;
+	left: 320px;
+	cursor:pointer;
+}
+.km-footer-arrow:hover{
+	background-color: transparent;
+
+}
+.km-footer-arrow:active{
+	position:relative;
+	bottom: 82px;
+	left: 322px;
+	border:none;
+}
+
+.km-footer-form-text {
+	font: 30px "OstrichSansMedium", Arial, sans-serif;
+	line-height: 1;
+	padding-left: 70px;
+}
+.km-footer-text-bot{
+	padding-top: 77px;
+	font: 14px "ProximaNovaRegular", Arial, sans-serif;
+	line-height: 1.5;
+}
+.km-footer-text-bot .km-footer-author{
+	font-weight: bold;
+}
